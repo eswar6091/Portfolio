@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="main.java" method="get">
+        <label for="na">Enter Name:</label>
+        <input type="text" placeholder="Enter Your Name" id="na" name="es" required minlength="6" maxlength="10"<br><br>
+        <label for="na">Enter Password:</label>
+        <input type="text" placeholder="Enter Password" id="na" name="es"><br><br>
+        <label for="em">Enter  email</label>
+        <input type="email" id="em" name="em"> <br><br>
+        <div>
+            <input type="date">
+        </div><br>
+        <div>
+            <input type="text" name="age" disabled required>
+            <label for=" ">Enetr text</label>
+        </div>
+        <div>
+            <input type="time">
+        </div><br>
+        <div>
+            <input type="datetime-local">
+        </div><br>
+        <div>
+            <input type="file" accept=".pdf,.docx,.png">
+        </div><br>
+        <div>
+            <input type="month"><input type="week">
+        </div><br>
+        <div>
+            <label for="num">Enter a number:</label>
+            <input type="number" id="num"> 
+        </div><br>
+        <div>
+            <input type="color">
+        </div><br>
+        <div>
+            <label for="ur">Enter a url:</label>
+            <input type="url" id="ur">
+        </div><br>
+        <div>
+            <input type="search">
+        </div>
+        <div>
+            <label for="feedback">Your Feedback:</label><br>
+            <textarea id="feedback" name="feedback" rows="4" cols="50" placeholder="Enetr your comment here..."></textarea>
+        </div>
+        <div>
+            <input type="radio" name="gender" id="m" value="male">
+            <label for="m">Male</label>
+            <input type="radio" name="gender" id="n" value="female">
+            <label for="n">Female</label>
+        </div><br>
+        <div>
+            <input type="checkbox" name="lang" id="en" valu="eng">
+            <label for="en">English</label>
+            <input type="checkbox" name="lang" id="te" valu="tel">
+            <label for="te">Telugu</label>
+            <input type="checkbox" name="lang" id="hi" valu="hin">
+            <label for="hi">hindi</label>
+        </div><br>
+        <div>
+            <label for="b">Choose the course:</label>
+<select name="branch" id="b" size="6" multiple>
+    <option value="">Select Course</option>
+
+    <optgroup label="Engineering">
+        <option value="EEE">EEE</option>
+        <option value="CSE">CSE</option>
+        <option value="ML">ML</option>
+        <option value="CIVIL">CIVIL</option>
+    </optgroup>
+
+    <optgroup label="Degree">
+        <option value="BSC">BSC</option>
+        <option value="MBA">MBA</option>
+    </optgroup>
+</select>
+
+        </div>
+        <div>
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age"  min="18" max="50">
+        </div>
+        <div>
+            <input type="text" placeholder="Enter name:",name="name" pattern="[a-zA-z0-9]{,3}">
+        </div>
+        <div>
+            <input type="text" placeholder="Enter phn number:",name="name" pattern="[91\d]{12}">
+        </div>
+          <div>
+            <input type="text" placeholder="Enter email:",name="name" pattern="[a-zA-z0-9_%+-]+@[A-Za-z0-9-]+.[A-Za-z]">
+        </div>
+ 
+
+        
+
+        <button type="submit">send</button>
+        <button type="reset">reset</button>
+    </form>
+
+
+    
+</body>
+</html>

@@ -1,0 +1,29 @@
+.grid-container {
+  display: grid;
+  height: 100vh;
+  grid-template: 150px auto / 50px 80px;
+  gap: 5px;
+  padding: 10px;
+}
+
+.header {
+  background: #add8e6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.sidebar {
+  background: #90ee90;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  background: #f08080;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
